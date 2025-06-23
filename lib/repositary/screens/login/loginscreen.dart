@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:zippyit/repositary/screens/bottomnav/bottomnavscreen.dart';
 import 'package:zippyit/repositary/widgets/uihelper.dart';
 
 class Loginscreen extends StatelessWidget {
@@ -61,7 +62,12 @@ class Loginscreen extends StatelessWidget {
                       height: 40,
                       width: 295,
                       child: ElevatedButton(
-                        onPressed: () {},
+                        onPressed: () {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                                  builder: (context) => Bottomnavscreen()));
+                        },
                         style: ElevatedButton.styleFrom(
                             backgroundColor: Colors.red,
                             shape: RoundedRectangleBorder(
