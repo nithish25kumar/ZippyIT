@@ -84,6 +84,98 @@ class Cartscreen extends StatelessWidget {
               ),
             ],
           ),
+          SizedBox(
+            height: 20,
+          ),
+          Uihelper.CustomImage(img: "cart.png"),
+          SizedBox(
+            height: 20,
+          ),
+          Uihelper.CustomText(
+              text: "Reordering will be easy",
+              color: Colors.black,
+              fontweight: FontWeight.bold,
+              fontsize: 16,
+              fontfamily: "bold"),
+          Uihelper.CustomText(
+            text: "Items you order will show up here so you can buy",
+            color: Colors.black,
+            fontweight: FontWeight.bold,
+            fontsize: 12,
+          ),
+          Uihelper.CustomText(
+            text: "them again easily.",
+            color: Colors.black,
+            fontweight: FontWeight.bold,
+            fontsize: 12,
+          ),
+          SizedBox(
+            height: 30,
+          ),
+          Row(
+            children: [
+              SizedBox(
+                width: 20,
+              ),
+              Uihelper.CustomText(
+                  text: "Bestsellers",
+                  color: Colors.black,
+                  fontweight: FontWeight.bold,
+                  fontsize: 16,
+                  fontfamily: "bold"),
+            ],
+          ),
+          SizedBox(
+            height: 10,
+          ),
+          Row(
+            children: [
+              SizedBox(
+                width: 20,
+              ),
+              Stack(
+                children: [
+                  Uihelper.CustomImage(img: "milk.png"),
+                  SizedBox(
+                    height: 20,
+                  ),
+                  Uihelper.CustomText(
+                      text: "Amul Taaza Toned\nFresh Milk",
+                      color: Colors.black,
+                      fontweight: FontWeight.normal,
+                      fontsize: 8),
+                  Padding(
+                    padding: EdgeInsets.only(top: 95, left: 65),
+                    child: Uihelper.CustomButton(() {}),
+                  ),
+                ],
+              ),
+              SizedBox(
+                width: 15,
+              ),
+              Stack(
+                children: [
+                  Uihelper.CustomImage(img: "potato.png"),
+                  Padding(
+                    padding: EdgeInsets.only(top: 95, left: 65),
+                    child: Uihelper.CustomButton(() {}),
+                  ),
+                ],
+              ),
+              SizedBox(
+                width: 15,
+              ),
+              Stack(
+                children: [
+                  Uihelper.CustomImage(img: "tomato.png"),
+                  Padding(
+                    padding: EdgeInsets.only(top: 95, left: 65),
+                    child: Uihelper.CustomButton(() {}),
+                  )
+                ],
+              )
+            ],
+          )
         ],
       ),
     );

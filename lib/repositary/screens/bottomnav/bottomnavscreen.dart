@@ -17,7 +17,7 @@ class _BottomnavscreenState extends State<Bottomnavscreen> {
   List<Widget> pages = [
     Homescreen(),
     Cartscreen(),
-    Categoryscreen(),
+    CategoryScreen(),
     Printscreen()
   ];
   @override
