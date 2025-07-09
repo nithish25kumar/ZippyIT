@@ -11,24 +11,40 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
+  firebase_auth:
+  firebase_core:
+  cloud_firestore:
+  google_sign_in:
+  http:
+  shared_preferences:
+  file_picker:
+  flutter_stripe: ^10.0.0
+  pdf:
+  printing:
+  upi_india:
+  syncfusion_flutter_pdf:
+  url_launcher:
+  razorpay_flutter: ^1.4.0
+  speech_to_text: ^7.1.0
+  permission_handler:
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  flutter_lints: ^2.0.0
   flutter_launcher_icons: ^0.14.4
-  flutter_lints: ^3.0.0
 
-flutter_icons:
+flutter_launcher_icons:
   android: true
   ios: true
-  image_path: "assets/icon/icon1.png" # Make sure this image exists
+  image_path: "assets/images/profiledp.png"
 
 flutter:
   uses-material-design: true
 
   assets:
     - assets/images/
-    - assets/icon/icon1.png   # This line ensures the icon image is included
+    - assets/data.json
 
   fonts:
     - family: bold
